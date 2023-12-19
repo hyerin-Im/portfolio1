@@ -3,7 +3,7 @@
 # 프로젝트 사이트
 
 <a href="https://hyerin-im.github.io/portfolio1/dist/" target="_blank">
-<img src="/favicon.ico" width="150px">
+<img src="/favicon.ico" width="150px">Aqo Studio
 </a>
 
 <br>
