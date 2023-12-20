@@ -1,11 +1,9 @@
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { CustomerLIstWrap } from './CustomerStyle';
-import CustomerItem from './CustomerItem';
-import { useDispatch } from 'react-redux';
-import { add } from '../../store/modules/customerSlice';
 import { useEffect } from 'react';
 import { addData } from '../../store/modules/paginationSlice';
 import { useNavigate } from 'react-router-dom';
+import CustomerItem from './CustomerItem';
 
 const CustomerLIst = () => {
     const { customerData } = useSelector((state) => state.customer);

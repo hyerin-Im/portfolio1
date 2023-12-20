@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { CustomerDetailWrap } from './CustomerStyle';
 import { useNavigate, useParams } from 'react-router-dom';
-import { edit } from '../../store/modules/customerSlice';
-import customerdata from '../../assets/api/customerdata';
+import { edit, remove } from '../../store/modules/customerSlice';
 
 const CustomerDetail = () => {
     const { customerID } = useParams();

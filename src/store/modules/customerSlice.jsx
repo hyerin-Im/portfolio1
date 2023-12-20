@@ -16,7 +16,7 @@ export const customerSlice = createSlice({
             state.customerData.push({ id: no++, ...action.payload });
         },
         remove: (state, action) => {
-            state.customerData = action.payload;
+            state.customerData = state.customerData.filter((item) => item.id !== action.payload);
         },
         edit: (state, action) => {
             state.current = action.payload;

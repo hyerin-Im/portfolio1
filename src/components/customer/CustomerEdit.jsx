@@ -29,8 +29,14 @@ const CustomerEdit = () => {
         setUser({ name: '', title: '', content: '' });
         navigate(`/customer`);
     };
+
+    const onGo = (e) => {
+        e.preventDefault();
+        navigate(`/customer`);
+    };
+
     return (
-        <div>
+        <CustomerAddWrap>
             <div className="inner">
                 <h2> 고객문의수정 </h2>
                 <form className="customer-add" onSubmit={onSubmit}>
@@ -41,16 +47,23 @@ const CustomerEdit = () => {
                         <input type="text" placeholder="작성자" value={name} name="name" onChange={changeInput} />
                     </p>
                     <p>
-                        <textarea cols="100" rows="10" placeholder="문의하기"></textarea>
+                        <textarea
+                            cols="100"
+                            rows="10"
+                            placeholder="문의하기"
+                            name="content"
+                            value={content}
+                            onChange={changeInput}
+                        ></textarea>
                     </p>
                     <p>
-                        <button onClick={() => navigate(-2)}>목록으로</button>
+                        <button onClick={onGo}>목록으로</button>
                         <button type="submit">저장하기</button>
-                        <button>취소하기</button>
+                        <button onClick={onGo}>취소하기</button>
                     </p>
                 </form>
             </div>
-        </div>
+        </CustomerAddWrap>
     );
 };
 

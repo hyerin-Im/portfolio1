@@ -1,7 +1,20 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-    authList: [],
+    authList: localStorage.getItem('authList')
+        ? JSON.parse(localStorage.getItem('authList'))
+        : [
+              {
+                  authList: [
+                      {
+                          username: '관리자',
+                          email: 'abc@naver.com',
+                          tel: '010-0000-0000',
+                          password: 'a1234',
+                      },
+                  ],
+              },
+          ],
     user: null,
     authed: false,
 };
@@ -26,6 +39,7 @@ export const authSlice = createSlice({
         },
         signup: (state, action) => {
             state.authList = [state.authList, { id: no++, ...action.payload }];
+            localStorage.setItem('authList', JSON.stringify(state.authList));
         },
     },
 });
