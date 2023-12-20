@@ -38,8 +38,8 @@ const App = () => {
                         <Route path="/customer">
                             <Route index element={<Customer />} />
                             <Route path=":customerID" element={<CustomerDetail />} />
-                            <Route path=":customeradd" element={<CustomerAdd />} />
-                            <Route path=":customeredit" element={<CustomerEdit />} />
+                            <Route path="customeradd" element={<CustomerAdd />} />
+                            <Route path="customeredit" element={<CustomerEdit />} />
                         </Route>
                     </Route>
                     <Route path="*" element={<NotFiles />} />

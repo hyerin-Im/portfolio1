@@ -19,12 +19,14 @@ export const customerSlice = createSlice({
             state.customerData = state.customerData.filter((item) => item.id !== action.payload);
         },
         edit: (state, action) => {
+            console.log('edit call',action.payload)
             state.current = action.payload;
         },
         update: (state, action) => {
             state.customerData = state.customerData.map((item) =>
                 item.id === action.payload.id ? action.payload : item
             );
+            state.current = {};
         },
     },
 });

@@ -7,6 +7,11 @@ const CustomerDetail = () => {
     const { customerID } = useParams();
     const { customerData } = useSelector((state) => state.customer);
     const newItem = customerData.find((item) => item.id === Number(customerID));
+
+    if (!newItem) {
+        return null;
+    }
+
     const { id, name, title, content, date } = newItem;
 
     const navigate = useNavigate();
