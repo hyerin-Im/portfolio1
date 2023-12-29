@@ -4,7 +4,7 @@ const Content1 = () => {
     return (
         <ContentStyle1>
             <div className="inner">
-                <img src="/images/holliday.jpg" alt="" />
+                <img src="./images/holliday.jpg" alt="" />
             </div>
         </ContentStyle1>
     );

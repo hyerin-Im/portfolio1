@@ -1,10 +1,10 @@
-import { ContentStyle2 } from './ContentStyle';
+import { ContentStyle2 } from "./ContentStyle";
 
 const Content2 = () => {
     return (
         <ContentStyle2>
             <div className="inner">
-                <img src="/images/b2.jpg" alt="" />
+                <img src="./images/b2.jpg" alt="" />
             </div>
         </ContentStyle2>
     );

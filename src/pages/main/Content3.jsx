@@ -4,7 +4,7 @@ const Content3 = () => {
     return (
         <ContentStyle3>
             <div className="inner">
-                <img src="/images/b3.jpg" alt="" />
+                <img src="./images/b3.jpg" alt="" />
             </div>
         </ContentStyle3>
     );
