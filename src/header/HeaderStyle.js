@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const HeaderWrap = styled.header`
     background-color: #fff;
@@ -46,7 +46,7 @@ export const NavWrap = styled.nav`
                     font-weight: 500;
                     transition: 0.3s;
                     &:hover {
-                        color: tomato;
+                        color: #aaa;
                     }
                 }
                 &:last-child span {

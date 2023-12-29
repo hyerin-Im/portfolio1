@@ -1,7 +1,7 @@
-import { useDispatch, useSelector } from 'react-redux';
-import { PaginationWrap } from './PaginationStyle';
-import { useEffect } from 'react';
-import { currentPage, nextPage, prevPage, totalData } from '../../store/modules/paginationSlice';
+import { useDispatch, useSelector } from "react-redux";
+import { PaginationWrap } from "./PaginationStyle";
+import { useEffect } from "react";
+import { currentPage, nextPage, prevPage, totalData } from "../../store/modules/paginationSlice";
 
 const Pagination = () => {
     const { customerData } = useSelector((state) => state.customer);
@@ -25,15 +25,15 @@ const Pagination = () => {
 
                 {arr.map((_, idx) => (
                     <button
-                        key={idx}
-                        className={currPage === idx + 1 ? 'on' : ''}
+                        className={currPage === idx + 1 ? "on" : ""}
                         onClick={() => dispatch(currentPage(idx + 1))}
+                        key={idx}
                     >
                         {idx + 1}
                     </button>
                 ))}
 
-                <button onClick={() => dispatch(nextPage)}>{`>>`}</button>
+                <button onClick={() => dispatch(nextPage())}>{`>>`}</button>
             </div>
         </PaginationWrap>
     );
