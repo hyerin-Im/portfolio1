@@ -1,5 +1,4 @@
-import React from 'react';
-import { ContentStyle1 } from './ContentStyle';
+import { ContentStyle1 } from "./ContentStyle";
 
 const Content1 = () => {
     return (

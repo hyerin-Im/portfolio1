@@ -1,4 +1,4 @@
-import { ContentStyle3 } from './ContentStyle';
+import { ContentStyle3 } from "./ContentStyle";
 
 const Content3 = () => {
     return (
