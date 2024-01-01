@@ -11,7 +11,7 @@ const NavBar = () => {
             <NavWrap className="nav">
                 <ul>
                     <li>
-                        <Link to={"/press"}>Press</Link>
+                        <Link to={"/lookbook"}>LookBook</Link>
                     </li>
                     <li>
                         <Link to={"/product"}>Product</Link>

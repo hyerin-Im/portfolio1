@@ -14,7 +14,7 @@ import Customer from "./pages/customer/Customer";
 import CustomerDetail from "./components/customer/CustomerDetail";
 import CustomerAdd from "./components/customer/CustomerAdd";
 import CustomerEdit from "./components/customer/CustomerEdit";
-import Press from "./pages/press/Press";
+import LookBook from "./pages/lookbook/LookBook";
 
 const App = () => {
     return (
@@ -27,7 +27,7 @@ const App = () => {
                         <Route path="/join" element={<Join />} />
                         <Route path="/login" element={<Login />} />
                         <Route path="/logout" element={<Logout />} />
-                        <Route path="/press" element={<Press />} />
+                        <Route path="/lookbook" element={<LookBook />} />
                         <Route path="/product" element={<Product />} />
                         <Route path="/cart" element={<Cart />} />
 

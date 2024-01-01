@@ -7,8 +7,13 @@ import 'swiper/css/navigation';
 import Content1 from './Content1';
 import Content2 from './Content2';
 import Content3 from './Content3';
+import { useEffect } from 'react';
 
 const Main = () => {
+
+    useEffect(()=>{
+        window.scrollTo(0,0)
+    },[])
     return (
         <>
             <VisualWrap>

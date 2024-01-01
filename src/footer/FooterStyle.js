@@ -1,11 +1,20 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FooterWrap = styled.footer`
     .inner {
         height: 250px;
-    }
-    h2 {
-        padding-top: 80px;
-        font-size: 20px;
+        .fMenu {
+            display: flex;
+            li {
+                margin: 20px 5px;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+        ul {
+            li {
+                font-size: 12px;
+            }
+        }
     }
 `;
