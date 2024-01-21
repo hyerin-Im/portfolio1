@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import GlobalStyle from './styled/GlobalStyle';
 import Layout from './components/Layout';
 import NotFiles from './pages/notfiles/NotFiles';
