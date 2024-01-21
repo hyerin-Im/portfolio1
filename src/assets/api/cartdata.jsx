@@ -1,0 +1,98 @@
+export default [
+    {
+        id: 1,
+        title: 'AQO BEAR BI-COLOR SUMMER CARDIGAN NAVY',
+        price: 32000,
+        description: '아코 베어 섬머 가디건 네이비',
+        category: 'OUTER',
+        image: 'https://aqostudio.com/web/product/medium/202205/6a8a42f2afb7f0ccb8778fd981d58247.jpg',
+        rating: {
+            rate: 5,
+            count: 10,
+        },
+    },
+    {
+        id: 2,
+        title: 'AQO BEAR STRIPE KNIT TEE LIME',
+        price: 26500,
+        description: '아코 베어 스트라이프 니트티 라임',
+        category: 'TOP',
+        image: 'https://aqostudio.com/web/product/big/202205/dc4967282753d406e61f9c7b5bdc7424.jpg',
+        rating: {
+            rate: 5,
+            count: 10,
+        },
+    },
+    {
+        id: 3,
+        title: 'BEAR PHONECASE',
+        price: 11400,
+        description: '베어 폰케이스',
+        category: 'ACC',
+        image: 'https://aqostudio.com/web/product/big/202302/c883a252ee9fab2ed514476d05b7e520.jpg',
+        rating: {
+            rate: 5,
+            count: 10,
+        },
+    },
+    {
+        id: 4,
+        title: 'LOGO BI-COLOR BALLCAP BLACK',
+        price: 11400,
+        description: '로고 배색 볼캡 블랙',
+        category: 'ACC',
+        image: 'https://aqostudio.com/web/product/big/202302/0ecd873b595727251829c9a56dc7b625.jpg',
+        rating: {
+            rate: 5,
+            count: 10,
+        },
+    },
+    {
+        id: 5,
+        title: 'BEAR AIRPOD CASE',
+        price: 9600,
+        description: '베어 에어팟케이스',
+        category: 'ACC',
+        image: 'https://aqostudio.com/web/product/big/202302/cf8971f5c9038ee4adf8503ef9f85d6e.jpg',
+        rating: {
+            rate: 5,
+            count: 10,
+        },
+    },
+    {
+        id: 6,
+        title: 'STAR LOGO T-SHIRT CHARCOAL',
+        price: 23400,
+        description: '스타 로고 티셔츠 차콜',
+        category: 'TOP',
+        image: 'https://aqostudio.com/web/product/medium/202304/efa9681cc8d326b00634f100e243b7b6.jpg',
+        rating: {
+            rate: 5,
+            count: 10,
+        },
+    },
+    {
+        id: 7,
+        title: 'AQO CARGO SWEAT PANTS PINK',
+        price: 62300,
+        description: '아코 카고 스웨트 팬츠 핑크',
+        category: 'BOTTOM',
+        image: 'https://aqostudio.com/web/product/medium/202309/f7cbd99ddc1f8469f0ea26ca2c965727.jpg',
+        rating: {
+            rate: 5,
+            count: 10,
+        },
+    },
+    {
+        id: 8,
+        title: 'AQO BEAR PATTERN DENIM PANTS BLUE',
+        price: 44500,
+        description: '아코 베어 패턴 데님 팬츠 블루',
+        category: 'BOTTOM',
+        image: 'https://aqostudio.com/web/product/medium/202307/4169e9936a59a7bfd366c845b7ef779e.jpg',
+        rating: {
+            rate: 5,
+            count: 10,
+        },
+    },
+];
